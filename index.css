@@ -1,0 +1,68 @@
+  body{
+  background-color: gray;
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 150%;
+  }
+  #input-container{
+    display: inline-block;
+    margin-top: 20px; 
+  }
+#conversion-select{
+  width: 200px;
+  font-size: medium;
+  height: 30px;
+  font-family: "Bona Nova SC", serif;
+  font-weight: 700;
+  font-style: normal;
+  background-color: rgb(199, 160, 110);
+  color: white;
+  min-width: 400px;
+}
+#input-el{
+  margin-left: 10px;
+  width: 200px;
+  height: 30px;
+  background-color:gray;
+  border: 3px solid whitesmoke;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 110%;
+}
+#output-el{
+  width: 200px;
+  height: 30px;
+  background-color:gray;
+  border: 3px solid whitesmoke;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 110%;
+}
+#from-unit{
+  margin-left: 12px;
+  font-size: medium;
+  font-family: "Bona Nova SC", serif;
+  font-weight: 700;
+  font-style: normal;
+  background-color: rgb(199, 160, 110);
+  color: white;
+}
+#to-unit{
+  margin-left: 20px;
+  font-size: medium;
+  font-family: "Bona Nova SC", serif;
+  font-weight: 700;
+  font-style:normal;
+  background-color: rgb(199, 160, 110);
+  color: white;
+}
+#field-btn{
+  min-width: 400px;
+  max-width: fit-content;
+  border-radius: 6px;
+}
+#title{
+  margin-bottom: 3px;
+}

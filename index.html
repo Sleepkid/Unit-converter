@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=New+Amsterdam&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+            </style>
+    </head>
+    <body>
+    <fieldset id="field-btn">
+     <u><p id="title">Unit converter</p></u>
+        <div id="conversion-type">
+            <label for="conversion-select">Select Conversion Type:</label><br>
+            <select id="conversion-select">
+                <option value="length">Length</option>
+                <option value="area">Area</option>
+                <option value="volume">volume</option>
+                <option value="mass">mass</option>
+                <option value="energy">Energy</option>
+            </select>
+        </div>
+    <div id="input-container">
+        <input id="input-el" value="1"><br>
+        <select id="from-unit">
+            <option value="centimeter">centimeter</option>
+           <option value="meter">meter</option>
+           <option value="square-meter">square-meter</option>
+           <option value="acre">acre</option>
+           <option value="liter">Liter</option>
+           <option value="milliliter">Milliliter</option>
+           <option value="kilogram"> Kilogram</option>
+           <option value="gram">Gram</option>
+           <option value="tonne">Tonne</option>
+           <option value="joule">Joule</option>
+           <option value="kilojoule">Kilojoule</option>
+           <option value="watthour">Watt hour</option>
+           <option value="kilowatt-hour">Kilowatt-hour</option>
+        </select>
+    </div>
+    <div id="input-container">
+        <span>=</span>
+        <input id="output-el" disabled><br>
+        <select  id="to-unit">
+         <option value="centimeter">centimeter</option>
+        <option value="meter">meter</option>
+        <option value="square-meter">square-meter</option>
+        <option value="acre">acre</option>
+        <option value="liter">Liter</option>
+        <option value="milliliter">Milliliter</option>
+        <option value="kilogram"> Kilogram</option>
+        <option value="gram">Gram</option>
+        <option value="tonne">Tonne</option>
+        <option value="joule">Joule</option>
+        <option value="kilojoule">Kilojoule</option>
+        <option value="watthour">Watt hour</option>
+        <option value="kilowatt-hour">Kilowatt-hour</option>
+        </select>
+    </div>
+</fieldset>
+ <script src="index.js"></script>
+    </body>
+</html>
